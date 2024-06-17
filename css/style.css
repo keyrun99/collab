@@ -1000,8 +1000,9 @@ input.Enter_text::placeholder {
     padding: 0px;
 }
 
+
 .social_icon li {
-   float: left;
+    float: left;
 }
 
 .social_icon li a {
