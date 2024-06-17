@@ -148,45 +148,38 @@
                   </div>
                </div>
             </div>
-
-            <div class="about_section_2 layout_padding" id="2">
+            <div class="about_section_2 layout_padding" id="3">
                <div class="container">
-                  <div class="row">
-                     
-                     <div class="col-md-6">
-                        <div class="about_taital_main">
-                           <h1 class="slightly_text">Database management</h1>
-                           <p class="lorem_text">
-                              Three geodatabase are designed for this project as per the requirement of our client.
-                              One geodatabse is for whole Emily Park, other for the study area highlighting confort
-                              station and the last one is for the Flood SImulation Analysis.
-                              We segregated all amenities and utility data from the infrastructure database provided by
-                              the client. Using the FME software, we catagorized the data and created the feature class
-                              for each category, ensuring the requirement of the client. We also created a domain for
-                              the campsite to reduce the risk of erroneous entries and maintiang the data integrity.
-                              In the study area geodatabase we exclusively focus on our study area i.e. the comfort station
-                              which includes all amenities and utility data, alongside additional attributes such as diameter 
-                              and pipe materials in the respective feature classes. As there are numerous unnecessary field 
-                              in the field map, We also cleaned up the data using FME and each field was renamed based on
-                               client's attribute structure.
-                           </p>
-                                                
-                        </div>
-                     </div>  
-                     <div class="col-md-6">
-                        <div class="about_img">
-                           <a href="images/about-img.png" data-lightbox="spatialanalysis" data-title="snip of flood risk within the park">
-                              <img src="images/about-img.png" style="max-height: 400px; max-width: 400px;">
-                           </a>
-                           <a href="images/about-img.png" data-lightbox="spatialanalysis" data-title="snip of risk areas within the park">
-                              <img src="images/about-img.png" style="max-height: 400px; max-width: 400px;">
-                           </a>
-                        </div>
-
-                     </div>                  
-                  </div>
+                   <div class="row">
+                       <div class="col-md-6">
+                           <div class="about_taital_main">
+                               <h1 class="slightly_text">Database Management </h1>
+                               <p class="lorem_text">
+                                   We utilized the Infrastructure File Geodatabase from Ontario Parks to create three distinct File Geodatabases using FME (Spatial Database Manipulation Engine).
+                               </p>
+                               <ul class="lorem_text">
+                                   <li><strong>Emily Park:</strong> The Emily Park Geodatabase encompasses the entire park, integrating all amenities and utility data.</li>
+                                   <li><strong>Comfort Station:</strong> In the Study Area Geodatabase, we focused exclusively on comfort stations, augmenting data with attributes like diameter and pipe materials.</li>
+                                   <li><strong>Flood Simulation Analysis:</strong> Flood Simulation Analysis Geodatabase, our emphasis was on aligning data categories with client analysis requirements.</li>
+                               </ul>
+                               <p class="lorem_text">
+                                   Our data processing included comprehensive cleanup and field renaming to ensure clarity and consistency. Domains such as Campsite, SepticTank, PipeDiameter, and PipeMaterial were implemented to standardize data entries, while subtypes organized comfort station features based on specific attributes and functionalities, ensuring efficient data management and integrity maintenance.
+                               </p>
+                           </div>
+                       </div>
+                       <div class="col-md-6">
+                           <div class="about_img">
+                               <a href="images/FME.png" data-lightbox="spatialanalysis" data-title="snip of flood risk within the park">
+                                   <img src="images/FME.png" style="max-height: 400px; max-width: 400px;">
+                               </a>
+                               <a href="images/Layoutrisk.jpg" data-lightbox="spatialanalysis" data-title="snip of risk areas within the park">
+                                   <img src="images/FME2.png" style="max-height: 400px; max-width: 400px;">
+                               </a>
+                           </div>
+                       </div>
+                   </div>
                </div>
-            </div>
+           </div>
 
             <div class="about_section_2 layout_padding" id="3">
                <div class="container">

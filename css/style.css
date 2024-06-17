@@ -1051,3 +1051,76 @@ input.Enter_text::placeholder {
 
 
 /* copyright section end */
+/* social icon section*/
+.social_icon {
+    display: flex;
+    justify-content: center; /* Horizontal center alignment */
+}
+
+.social_icon ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social_icon ul li {
+    margin: 0 10px; /* Adjust spacing between icons */
+}
+
+.social_icon ul li a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.social_icon ul li a:hover {
+    color: #007bff; /* Link color on hover */
+}
+/* service section*/
+.service_section {
+    background-color: #f8f9fa; /* Example background color */
+    padding-top: 50px; /* Adjust top padding as needed */
+    padding-bottom: 50px; /* Adjust bottom padding as needed */
+}
+
+.service_box {
+    padding: 20px;
+    background-color:#6CC067; /* Example background color */
+    border: 1px solid #dddddd; /* Example border */
+    border-radius: 5px; /* Example border radius */
+}
+
+.residential_text {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.service_text {
+    color: #888888; /* Example text color */
+}
+
+.social_icon {
+    margin-top: 15px;
+}
+
+.social_icon ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social_icon ul li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between icons */
+}
+
+.social_icon ul li a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Example font size */
+}
+
+.social_icon ul li a:hover {
+    color: #007bff; /* Link color on hover */
+}
