@@ -860,6 +860,22 @@ button {
     color: #fefeff;
 }
 
+.send_bt button {
+    width: 100%;
+    float: left;
+    background-color: #6CC067;
+    color: #fefeff;
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.send_bt button:hover {
+    background-color: #252525;
+    color: #fefeff;
+}
+
 .padding_right0 {
     padding-right: 0px;
 }
